@@ -27,7 +27,7 @@ Bitecode Java - JVM
 @title[99 scala evolution]
 ### Repositórios Scala na 99
 
-![progression](assets/repos-progression.png)
+<img src="assets/repos-progression.png" alt="repos-progression" style="height: 430px;"/>
 
 
 ---
@@ -74,16 +74,28 @@ Note:
 
 ![imutabilidade](assets/dog-isolation.gif)
 
-- Isolamento
 - Menos side effects (e bugs)
 - Mais facil para paralelizar
 - Melhoria na concorrência
 - Mais fácil para cachear / serializar
 
+---
+@title[Funcional - Imutabilidade]
+
+###O default em Scala é sempre imutável
+
 ```
 println(List(1,2,3).getClass)
 //class scala.collection.immutable.$colon$colon
 ```
+---
+@title[Funcional - Var]
+
+
+### E o var?
+
+![nope](assets/dog-nope.gif)
+
 
 ---
 @title[Funcional - Monads]
