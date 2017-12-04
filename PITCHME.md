@@ -34,7 +34,7 @@ Bitecode Java - JVM
 @title[99 scala repos]
 ### Scala em 2017
 
-<img src="assets/repos-active.png alt="99_Scala" style="height: 530px;"/>
+<img src="assets/repos-active.png" alt="99_Scala" style="height: 430px;"/>
 
 Note:
 - Ativos = criados ou modificados em 2017
@@ -47,7 +47,7 @@ Note:
 
 ### Outras linguagens na 99
 
-<img src="assets/repos-word-cloud.png" alt="99_Scala" style="height: 530px;"/>
+<img src="assets/repos-word-cloud.png" alt="99_Scala" style="height: 430px;"/>
 
 ---
 @title[Funcional]
@@ -61,10 +61,10 @@ Note:
 ---
 @title[Functional Concepts]
 
-## Conceitos
+## Paradigma funcional
 
 
-![functional-concepts](assets/functional-cloud.png)
+<img src="assets/functional-cloud.png" alt="funcional" style="height: 430px;"/>
 
 
 ---
@@ -89,15 +89,12 @@ println(List(1,2,3).getClass)
 @title[Funcional - Monads]
 
 ### Monads
-
-![monadic-dog](assets/dog-with-balls.gif)
+<img src="assets/dog-with-balls.gif" alt="dog-balls" style="height: 230px;"/>
 
 Em duas palavras: Encapsula computação.
-
 ( existem mais regras para monads...)
 
 Future é uma monad:
-
 ```scala
 val f = Future {
 	println("o futuro é agora")
@@ -107,6 +104,9 @@ val f = Future {
 ---
 @title[Functional - Code example]
 
+### Código menos e mais sucinto
+
+Java:
 ```java
 public static Optional<Long> s2SourceFromLatLng(Double lat, Double lng, int estimativeCellLevel) {
   try {
@@ -117,6 +117,7 @@ public static Optional<Long> s2SourceFromLatLng(Double lat, Double lng, int esti
 }
 ```
 
+Scala:
 ```scala
 def getCell(lat: Double, lng: Double, estimativeCellLevel: Integer = 18) =
     Try(S2CellId.fromLatLng(S2LatLng.fromDegrees(lat, lng)).parent(estimativeCellLevel).id).toEither
@@ -131,9 +132,14 @@ def getCell(lat: Double, lng: Double, estimativeCellLevel: Integer = 18) =
 Scala não define classes básicas para estruturas funcionais.
 
 
-Scalaz
+Bibliotecas:
 
-Cats ![cats](assets/cats-logo.png)
+ Scalaz
+
+Cats <img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"/>
+
+
+
 
 ---
 @title[WWW]
