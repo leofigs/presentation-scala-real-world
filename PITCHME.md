@@ -82,7 +82,7 @@ Note:
 ---
 @title[Funcional - Imutabilidade]
 
-###O default em Scala é sempre imutável
+### O default em Scala é sempre imutável
 
 ```
 println(List(1,2,3).getClass)
@@ -101,7 +101,7 @@ println(List(1,2,3).getClass)
 @title[Funcional - Monads]
 
 ### Monads
-<img src="assets/dog-with-balls.gif" alt="dog-balls" style="height: 230px;"/>
+<img src="assets/dog-with-balls.gif" alt="dog-balls" style="height: 130px;"/>
 
 Em duas palavras: Encapsula computação.
 ( existem mais regras para monads...)
@@ -115,14 +115,15 @@ val f = Future {
 
 ---
 @title[Functional - Code example]
-
-### Código menos e mais sucinto
+### Código menor e mais sucinto
 
 Java:
 ```java
 public static Optional<Long> s2SourceFromLatLng(Double lat, Double lng, int estimativeCellLevel) {
   try {
-    return Optional.of(S2CellId.fromLatLng(S2LatLng.fromDegrees(lat, lng)).parent(estimativeCellLevel).id());
+    return Optional.of(S2CellId.fromLatLng(
+      S2LatLng.fromDegrees(lat, lng)).parent(
+        estimativeCellLevel).id());
   } catch (Exception e) {
     return Optional.empty();
   }
@@ -132,7 +133,8 @@ public static Optional<Long> s2SourceFromLatLng(Double lat, Double lng, int esti
 Scala:
 ```scala
 def getCell(lat: Double, lng: Double, estimativeCellLevel: Integer = 18) =
-    Try(S2CellId.fromLatLng(S2LatLng.fromDegrees(lat, lng)).parent(estimativeCellLevel).id).toEither
+    Try(S2CellId.fromLatLng(S2LatLng.fromDegrees(lat, lng))
+      .parent(estimativeCellLevel).id).toEither
 ```
 
 
