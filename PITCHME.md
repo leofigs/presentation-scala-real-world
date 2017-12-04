@@ -167,33 +167,87 @@ Bibliotecas:
 ---
 @title[ScalaJS]
 
+<img src="assets/scala-js-logo.png" alt="scalajs" style="height: 230px;"/>
 
-
-
-
-
+- Tipagem estática
+- Compila o código para Javascript (+ performance)
+- Interoperavel com React, AngularJS
+- Typescript++
 
 ---
-@title[WWW - Scalatra]
+@title[ScalaJS - Example]
+
+```javascript
+class Person(val firstName: String, val lastName: String) {
+  def fullName(): String =
+    s"$firstName $lastName"
+}
+```
 
 
-
-
-
-
+```javascript
+val names = persons.map(_.firstName)
+```
 ---
 @title[WWW - Play]
 
+<img src="assets/play_logo.png" alt="playframework" style="height: 230px;"/>
+
+- Akka embaixo do capô
+- Stateless
+- RESTful
+- Big players ( Linkedin, Samsung, Walmart, theguardian)
+
+---
+@title[WWW - Play - Example]
+
+### Endpoint Play
+
+```scala
+def findAllReceiptsByRefund(refundId: Long,
+  limit: Int, offset: Int) = Action.async { request =>
+    val res = for {
+      recs  <- receipts.findByRefund(Some(refundId), limit: Int, offset: Int)
+      count <- receipts.countFindByRefund(Some(refundId))
+      jsonResult = Json.obj("receipts" -> recs, "size" -> count)
+    } yield jsonResult
+    res map (Ok(_))
+  }
+```
+
+---
+@title[WWW - Akka HTTP]
+
+<img src="assets/akka_logo.png" alt="akka" style="height: 230px;"/> HTTP
+
+
+Não é um framework web.
+![dog-wat](assets/dog-wat.gif)
+
+---
+@title[WWW - Akka HTTP]
+
+É um "toolkit" server e client http contruída sob o akka-actor e akka-stream
+
+<img src="assets/dog-hard.gif" alt="dog-hard" style="height: 330px;"/>
 
 
 ---
 @title[WWW - Akka HTTP]
 
+### Comofas
+
+
+```scala
+
+
+```
+
+
 
 
 
 ---
-
 @title[Reactive title]
 
 
