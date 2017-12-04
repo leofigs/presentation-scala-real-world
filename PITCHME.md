@@ -150,7 +150,7 @@ Bibliotecas:
 
  Scalaz
 
-Cats <img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"/>
+<img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"/> Cats
 
 
 
