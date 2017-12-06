@@ -14,13 +14,13 @@
 
 @title[Scala]
 
-## Scala
+<img src="assets/scala-logo-white.png" alt="scala"
+	background="none !important;" border="none !important;"/>
 
-![scala](assets/scala-logo-white.png)
-
-Multi paradigma ( Funcional + OO )
-Bitecode Java - JVM
-![lightbend](assets/lightbend-logo.png)
+- Multi paradigma ( Funcional + OO )
+- Bitecode Java / JVM
+- <img src="assets/lightbend-logo.png" alt="lightbend"
+	style="height: 430px; background:none !important; border:none !important;"/>
 
 
 ---
@@ -119,7 +119,8 @@ val f = Future {
 
 Java:
 ```java
-public static Optional<Long> s2SourceFromLatLng(Double lat, Double lng, int estimativeCellLevel) {
+public static Optional<Long> s2SourceFromLatLng(
+	Double lat, Double lng, int estimativeCellLevel) {
   try {
     return Optional.of(S2CellId.fromLatLng(
       S2LatLng.fromDegrees(lat, lng)).parent(
@@ -150,7 +151,8 @@ Bibliotecas:
 
  Scalaz
 
-<img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"/> Cats
+<img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"
+	background="none !important;"/> Cats
 
 
 
@@ -244,16 +246,21 @@ Não é um framework web.
 ```
 
 
-
-
-
 ---
 @title[Reactive title]
 
+### Scala é Reativo
 
+![reactive-dog](assets/dog-active.gif)
 
 ---
 @title[Reactive]
+
+
+
+
+
+
 
 
 ---
