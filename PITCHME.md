@@ -291,9 +291,9 @@ Plataforma Reativa
 
 StackOverflow Developer Survey
 
-- Linguagem mais bem paga nos EUA em 2016 e 2017
-- Top 10 mais bem pagas no mundo
-- Top 10 média salarial
+- Linguagem mais bem paga nos EUA em 2016 e 2017 |
+- Top 10 mais bem pagas no mundo |
+- Top 10 média salarial |
 
 ---
 @title[Market - Brazil]
