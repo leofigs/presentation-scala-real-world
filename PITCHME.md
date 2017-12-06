@@ -3,22 +3,26 @@
 
 ---
 @title[Perfil: Leonardo]
+
 ### Quem é o Leonardo
+
 - 99ner
 - Programador Scala há 1 ano +-
 - Antes disso Python, Java, .Net ...
-- github/leofigs
-- leofigs no gmail
-- @leonardofigs no Twitter
----
+- dog person
 
+@fa[github] leofigs
+@fa[twitter] @leonardofigs
+@fa[envelope-o] leofigs no gmail
+
+---
 @title[Scala]
 
-
+![scala](assets/scala-logo-white.png)
 
 - Multi paradigma ( Funcional + OO ) |
 - Bitecode Java / JVM |
-- ![lightbend](assets/lightbend-logo.png) |
+- ![lightbend](assets/lightbend-logo.png)
 
 
 ---
@@ -72,10 +76,10 @@ Note:
 
 ![imutabilidade](assets/dog-isolation.gif)
 
-- Menos side effects (e bugs)
-- Mais facil para paralelizar
-- Melhoria na concorrência
-- Mais fácil para cachear / serializar
+- Menos side effects (e bugs) |
+- Mais facil para paralelizar |
+- Melhoria na concorrência |
+- Mais fácil para cachear / serializar |
 
 ---
 @title[Funcional - Imutabilidade]
@@ -131,7 +135,8 @@ public static Optional<Long> s2SourceFromLatLng(
 
 Scala:
 ```scala
-def getCell(lat: Double, lng: Double, estimativeCellLevel: Integer = 18) =
+def getCell(lat: Double, lng: Double,
+	estimativeCellLevel: Integer = 18) =
     Try(S2CellId.fromLatLng(S2LatLng.fromDegrees(lat, lng))
       .parent(estimativeCellLevel).id).toEither
 ```
@@ -149,8 +154,7 @@ Bibliotecas:
 
  Scalaz
 
-<img src="assets/cats-logo.png" alt="cats logo" style="height: 130px;"
-	background="none !important;"/> Cats
+<img src="assets/cats-logo.png" alt="cats logo" style="height: 80px;"/>
 
 
 
