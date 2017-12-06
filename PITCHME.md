@@ -14,7 +14,7 @@
 
 @title[Scala]
 
-<img src="assets/scala-logo-white.png" alt="scala"/>
+![scala](assets/scala-logo-white.png)
 
 - Multi paradigma ( Funcional + OO )
 - Bitecode Java / JVM
