@@ -20,7 +20,7 @@
 
 - Multi paradigma ( Funcional + OO ) |
 - Bitecode Java / JVM |
-- ![lightbend](assets/lightbend-logo.png) |
+- Lightbend |
 
 
 ---
@@ -32,7 +32,7 @@
 
 ---
 @title[99 scala repos]
-### Scala em 2017
+### Repositórios Scala ativos em 2017
 
 <img src="assets/repos-active.png" alt="99_Scala" style="height: 430px;"/>
 
