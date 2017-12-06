@@ -241,8 +241,19 @@ AKKA-HTTP não é um framework web.
 
 
 ```scala
+object GeocoderResource extends BaseResource {
+  val routes = pathPrefix("geocode" / "city") {
+    pathEndOrSingleSlash {
+      get {
+        parameters('lat.as[Double], 'long.as[Double]){ (lat, long) =>
+            getCityByLatLong(lat, long)
+        }
+      }
+    }
+  }
 
-
+  def getCityByLatLong(lat: Double, long: Double) = complete(OK)
+}
 ```
 
 
