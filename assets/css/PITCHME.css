@@ -1,4 +1,4 @@
-.nobox {
+.nobox .reveal section img{
   border: 0 !important;
   box-shadow: none !important;
 }
