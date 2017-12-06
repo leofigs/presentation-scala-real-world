@@ -14,11 +14,11 @@
 
 @title[Scala]
 
-![scala](assets/scala-logo-white.png)
+
 
 - Multi paradigma ( Funcional + OO ) |
 - Bitecode Java / JVM |
-- <img src="assets/lightbend-logo.png" alt="lightbend" style="height: 130px;"/> |
+- ![lightbend](assets/lightbend-logo.png) |
 
 
 ---
