@@ -11,9 +11,7 @@
 - Antes disso Python, Java, .Net ...
 - dog person
 
-@fa[github] leofigs
-@fa[twitter] @leonardofigs
-@fa[envelope-o] leofigs no gmail
+@fa[github] leofigs   |   @fa[twitter] @leonardofigs   |   @fa[envelope-o] leofigs no gmail
 
 ---
 @title[Scala]
@@ -22,7 +20,7 @@
 
 - Multi paradigma ( Funcional + OO ) |
 - Bitecode Java / JVM |
-- ![lightbend](assets/lightbend-logo.png)
+- ![lightbend](assets/lightbend-logo.png) |
 
 
 ---
@@ -154,7 +152,7 @@ Bibliotecas:
 
  Scalaz
 
-<img src="assets/cats-logo.png" alt="cats logo" style="height: 80px;"/>
+<img src="assets/cats-logo.png" alt="cats" style="height: 80px;"/>
 
 
 
@@ -197,7 +195,7 @@ val names = persons.map(_.firstName)
 
 <img src="assets/play_logo.png" alt="playframework" style="height: 230px;"/>
 
-- Akka embaixo do capô
+- Akka no motor
 - Stateless
 - RESTful
 - Big players ( Linkedin, Samsung, Walmart, theguardian)
@@ -222,10 +220,10 @@ def findAllReceiptsByRefund(refundId: Long,
 ---
 @title[WWW - Akka HTTP]
 
-<img src="assets/akka_logo.png" alt="akka" style="height: 230px;"/> HTTP
+<img src="assets/akka_logo.png" alt="akka" style="height: 130px;"/>
 
+AKKA-HTTP não é um framework web.
 
-Não é um framework web.
 ![dog-wat](assets/dog-wat.gif)
 
 ---
@@ -258,52 +256,57 @@ Não é um framework web.
 ---
 @title[Reactive]
 
+![lightbend](assets/lightbend-logo.png)
 
+Plataforma Reativa
 
-
-
-
-
+![lrp](assets/lightbend_reactive_platform.png)
 
 ---
 @title[Data]
 
+### Data em Scala
 
+![data](assets/dog-bag.gif)
 
 ---
 @title[Data - BigData]
 
+### BigData
 
-
-
----
-@title[Data - LittleData]
-
-
+![spark](assets/spark-logo.png)
 
 ---
 @title[Market]
+
+### Mercado de trabalho
+
+![dogmoney](assets/dog-money.gif)
 
 
 ---
 @title[Market - Stackoverflow dev survey]
 
+![stackoverflow](assets/stackoverflow-logo.png)
+
+StackOverflow Developer Survey
+
+- Linguagem mais bem paga nos EUA em 2016 e 2017
+- Top 10 mais bem pagas no mundo
+- Top 10 média salarial
 
 ---
 @title[Market - Brazil]
+
+### Mercado no Brasil
+
 
 
 ---
 @title[Market - World]
 
+### Mercado no mundo
 
-
----
-@title[Bibliografia / Sources]
-
-### Fontes:
-
-- None yet
 
 
 ---
