@@ -311,17 +311,35 @@ StackOverflow Developer Survey
 - Top 10 média salarial |
 
 ---
+
 @title[Market - Brazil]
 
 ### Mercado no Brasil
 
 
+- Vagas abertas o ano todo na 99 |
+- 83 vagas no Linkedin - Brasil |
 
 ---
 @title[Market - World]
 
 ### Mercado no mundo
 
+- 15.828 vagas no Linkedin - Mundo |
+- 671 vagas no Linkedin - Alemanha |
+- 1.372 vagas no Linkedin - Holanda |
+
+
+
+---
+@title[Scaladores]
+
+<img src="assets/logo-scaladores-negative.png" alt="scaladores" style="height: 330px;"/>
+
+
+https://www.meetup.com/scaladores/
+
+https://www.youtube.com/scaladores
 
 
 ---
