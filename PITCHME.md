@@ -7,9 +7,8 @@
 ### Quem é o Leonardo
 
 - 99ner
-- Programador Scala há 1 ano +-
+- Programador Scala há 1 ano
 - Antes disso Python, Java, .Net ...
-- dog person
 
 @fa[github] leofigs   |   @fa[twitter] @leonardofigs   |   @fa[envelope-o] leofigs no gmail
 
@@ -19,7 +18,7 @@
 ![scala](assets/scala-logo-white.png)
 
 - Multi paradigma ( Funcional + OO ) |
-- Bitecode Java / JVM |
+- Bytecode Java / JVM |
 - Lightbend |
 
 
@@ -75,7 +74,7 @@ Note:
 ![imutabilidade](assets/dog-isolation.gif)
 
 - Menos side effects (e bugs) |
-- Mais facil para paralelizar |
+- Facilidade para paralelizar |
 - Melhoria na concorrência |
 - Mais fácil para cachear / serializar |
 
@@ -114,7 +113,7 @@ val f = Future {
 ```
 
 ---
-@title[Functional - Code example]
+@title[Functional - Code - Java]
 ### Código menor e mais sucinto
 
 Java:
@@ -130,6 +129,11 @@ public static Optional<Long> s2SourceFromLatLng(
   }
 }
 ```
+
+
+---
+@title[Functional - Code - Scala]
+
 
 Scala:
 ```scala
