@@ -105,6 +105,10 @@ println(List(1,2,3).getClass)
 Em duas palavras: Encapsula computação.
 ( existem mais regras para monads...)
 
+
+---
+@title[Funcional - Monads - Future]
+
 Future é uma monad:
 ```scala
 val f = Future {
@@ -249,14 +253,16 @@ object GeocoderResource extends BaseResource {
   val routes = pathPrefix("geocode" / "city") {
     pathEndOrSingleSlash {
       get {
-        parameters('lat.as[Double], 'long.as[Double]){ (lat, long) =>
+        parameters('lat.as[Double], 'long.as[Double]){
+					(lat, long) =>
             getCityByLatLong(lat, long)
         }
       }
     }
   }
 
-  def getCityByLatLong(lat: Double, long: Double) = complete(OK)
+  def getCityByLatLong(lat: Double, long: Double) =
+		complete(OK)
 }
 ```
 
@@ -278,16 +284,9 @@ Plataforma Reativa
 ![lrp](assets/lightbend_reactive_platform.png)
 
 ---
-@title[Data]
-
-### Data em Scala
-
-![data](assets/dog-bag.gif)
-
----
 @title[Data - BigData]
 
-### BigData
+### Scala = BigData
 
 ![spark](assets/spark-logo.png)
 
@@ -316,7 +315,8 @@ StackOverflow Developer Survey
 
 ### Mercado no Brasil
 
-
+- Mercado relativamente pequeno |
+- 18 vagas para tecnologia na 99 |
 - Vagas abertas o ano todo na 99 |
 - 83 vagas no Linkedin - Brasil |
 
@@ -336,7 +336,6 @@ StackOverflow Developer Survey
 
 <img src="assets/logo-scaladores-negative.png" alt="scaladores" style="height: 330px;"/>
 
-
 https://www.meetup.com/scaladores/
 
 https://www.youtube.com/scaladores
@@ -349,7 +348,7 @@ https://www.youtube.com/scaladores
 
 ## Estamos contratando
 
-<img src="assets/logo99_big.png" class="no-border" alt="99_Logo" style="height: 400px;"/>
+<img src="assets/logo99_big.png" class="no-border" alt="99_Logo" style="height: 300px;"/>
 
 **The End**
 ---
