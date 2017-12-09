@@ -179,10 +179,10 @@ Bibliotecas:
 
 <img src="assets/scala-js-logo.png" alt="scalajs" style="height: 230px;"/>
 
-- Tipagem estática
-- Compila o código para Javascript (+ performance)
-- Interoperavel com React, AngularJS
-- Typescript++
+- Tipagem estática |
+- Compila o código para Javascript (+ performance) |
+- Interoperavel com React, AngularJS |
+- Typescript++ |
 
 ---
 @title[ScalaJS - Example]
@@ -325,6 +325,7 @@ StackOverflow Developer Survey
 
 ### Mercado no mundo
 
+- Muitos paises com ótimo mercado |
 - 15.828 vagas no Linkedin - Mundo |
 - 671 vagas no Linkedin - Alemanha |
 - 1.372 vagas no Linkedin - Holanda |
@@ -336,9 +337,9 @@ StackOverflow Developer Survey
 
 <img src="assets/logo-scaladores-negative.png" alt="scaladores" style="height: 330px;"/>
 
-https://www.meetup.com/scaladores/
+[https://www.meetup.com/scaladores/](https://www.meetup.com/scaladores/)
 
-https://www.youtube.com/scaladores
+[https://www.youtube.com/scaladores](https://www.youtube.com/scaladores)
 
 
 ---
